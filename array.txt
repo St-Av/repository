@@ -1,9 +1,7 @@
 #include "stdafx.h" 
 #include "conio.h" 
 #include "iostream" 
-#include "math.h" 
 #include "clocale" 
-#include "iomanip" 
 
 using std::cin; 
 using std::cout; 
