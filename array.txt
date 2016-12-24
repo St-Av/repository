@@ -17,8 +17,8 @@ int _tmain(int argc, _TCHAR* argv[])
 { 
 setlocale(LC_ALL, "Russian"); 
 int n; 
-cout « "Введите количество элементов массива " « endl; 
-cin » n; 
+cout В« "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІРµ " В« endl; 
+cin В» n; 
 int *mas = new int[n]; 
 scanfArray( mas, n); 
 printArray( mas, n); 
@@ -28,20 +28,20 @@ return 0;
 } 
 
 void scanfArray(int *mas, int n){ 
-cout « "Введите массив" « endl; 
+cout В« "Р’РІРµРґРёС‚Рµ РјР°СЃСЃРёРІ" В« endl; 
 for (int i = 0; i < n; i++) 
 { 
-cin » mas[i]; 
+cin В» mas[i]; 
 } 
 } 
 
 void printArray(int *mas, int n){ 
-cout « "Вывод массива" « endl; 
+cout В« "Р’С‹РІРѕРґ РјР°СЃСЃРёРІР°" В« endl; 
 for (int i = 0; i < n; i++) 
 { 
-cout « mas[i]« " "; 
+cout В« mas[i]В« " "; 
 } 
-cout « endl; 
+cout В« endl; 
 } 
 void deleteArray(int *mas, int n){ 
 //for (int i = 0; i < n; i++) 
